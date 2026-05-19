@@ -2,17 +2,25 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.johnisanerd/google-scholar",
   "title": "Google Scholar",
-  "description": "Search Google Scholar for academic papers, citations, and author profiles. Use with Claude, Cursor, or any MCP client.",
+  "description": "Search Google Scholar for academic papers, citations, and author profiles.",
   "websiteUrl": "https://apify.com/johnvc/google-scholar-api",
   "repository": {
     "url": "https://github.com/johnisanerd/google-scholar-mcp",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://apify.com/johnvc/google-scholar-api/api/mcp"
+      "url": "https://mcp.apify.com/?tools=johnvc/google-scholar-api",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Apify API token in Bearer format. Get one at https://console.apify.com/account#/integrations. Optional if your client supports OAuth.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
     }
   ]
 }
