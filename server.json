@@ -3,7 +3,7 @@
   "name": "io.github.johnisanerd/google-scholar",
   "title": "Google Scholar",
   "description": "Search Google Scholar for academic papers, citations, and author profiles.",
-  "websiteUrl": "https://apify.com/johnvc/google-scholar-api",
+  "websiteUrl": "https://apify.com/johnvc/google-scholar-api?fpr=9n7kx3",
   "repository": {
     "url": "https://github.com/johnisanerd/google-scholar-mcp",
     "source": "github"
